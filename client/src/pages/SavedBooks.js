@@ -11,7 +11,7 @@ import {
 import Auth from "../utils/auth";
 import { removeBookId } from "../utils/localStorage";
 import { useQuery, useMutation } from "@apollo/client";
-import { GET_ME } from "../utils/mutations";
+import { GET_ME } from "../utils/queries";
 import { REMOVE_BOOK } from "../utils/mutations";
 
 const SavedBooks = () => {
@@ -32,9 +32,9 @@ const SavedBooks = () => {
         variables: { bookId },
       });
 
-      if (!response.ok) {
-        throw new Error("something went wrong!");
-      }
+      // if (!response.ok) {
+      //   throw new Error("something went wrong!");
+      // }
 
       // upon success, remove book's id from localStorage
       removeBookId(bookId);
@@ -44,7 +44,7 @@ const SavedBooks = () => {
   };
 
   // if data isn't here yet, say so
-  if (loading)
+  if (loading) {
     return <h2>LOADING...</h2>;
   }
 
