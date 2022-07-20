@@ -28,7 +28,7 @@ const resolvers = {
         throw new AuthenticationError("No user found!");
       }
 
-      const correctPw = await profile.isCorrectPassword(password);
+      const correctPw = await User.isCorrectPassword(password);
 
       if (!correctPw) {
         throw new AuthenticationError("Incorrect password");
