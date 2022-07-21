@@ -17,11 +17,10 @@ The app was built using the MERN stack with a React front end, MongoDB database,
 - use the following link to open the application
 - The application will run on any browser.
 
-# live application - [Book Search Engine]()
+# live application - [Book Search Engine](https://booksearchks.herokuapp.com/)
 
 # Below are the sample pages of command line application
 
-<!--
 ## Search result
 
 <img src = "./client/public/assets/image1.png" width ="400">
@@ -40,7 +39,7 @@ The app was built using the MERN stack with a React front end, MongoDB database,
 
 ## updated saved books in cache
 
-<img src = "./client/public/assets/updatedcache.png" width ="400"> -->
+<img src = "./client/public/assets/updatedcache.png" width ="400">
 
 # Features and Technologies uses
 
