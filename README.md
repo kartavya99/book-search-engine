@@ -21,6 +21,7 @@ The app was built using the MERN stack with a React front end, MongoDB database,
 
 # Below are the sample pages of command line application
 
+<!--
 ## Search result
 
 <img src = "./client/public/assets/image1.png" width ="400">
@@ -39,7 +40,7 @@ The app was built using the MERN stack with a React front end, MongoDB database,
 
 ## updated saved books in cache
 
-<img src = "./client/public/assets/updatedcache.png" width ="400">
+<img src = "./client/public/assets/updatedcache.png" width ="400"> -->
 
 # Features and Technologies uses
 
